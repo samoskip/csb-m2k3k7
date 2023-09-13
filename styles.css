@@ -1,0 +1,115 @@
+body {
+  background-image: linear-gradient(#ffffff, #d5dceb);
+  background-attachment: fixed;
+}
+
+#word-container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#word-container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#word-container3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hint {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 1.25em;
+  color: #283753;
+  background-color: white;
+}
+
+.empty-box {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #20293b;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  border-radius: 4px;
+  background-color: white;
+  filter: drop-shadow(2px 2px 1px #222);
+}
+
+.focus-box {
+  border: 3px solid yellow;
+}
+
+.lost-box {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #20293b;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  border-radius: 4px;
+  background-color: gray;
+  filter: drop-shadow(2px 2px 1px #222);
+}
+
+.win-box {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #20293b;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  border-radius: 4px;
+  background-color: yellow;
+  filter: drop-shadow(2px 2px 1px #222);
+}
+
+/* style.css */
+#text-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+}
+
+#virtual-keyboard {
+  justify-content: center;
+  touch-action: manipulation;
+}
+/* Add this to style.css */
+.keyboard-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.keyboard-key {
+  width: 60px;
+  height: 80px;
+  background-image: linear-gradient(#909ad1, #5b659e);
+  border-radius: 3px;
+  margin: 2px;
+  border: 1px solid #434a74;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  color: black;
+}
+
+.keyboard-longkey {
+  width: 100px;
+  height: 80px;
+  background-image: linear-gradient(#909ad1, #5b659e);
+  margin: 2px;
+  border: 1px solid #434a74;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  color: black;
+}
+/* Customize button styles as needed */
